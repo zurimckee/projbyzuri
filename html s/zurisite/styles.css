@@ -1,26 +1,73 @@
 body {
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif ;
-    margin: 0;
-    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 40px;
+    padding: 20x;
     background-color:#b6efb8;
     color: #307848;
+    text-align: center;
+    list-style: circle;
     
 }
 
+.myDiv {
+    border: 5px outset #307848;
+    background-color: hwb(123 48% 28%);    
+    text-align: center;
+  }
 
-header {
+/*headings*/
+h1 {
+    font-size:36;
     background: #b6efb8;
     color: #307848;
     text-align: center;
     padding: 20px;
 }
 
-/*nav bar*/
+h2{
+    font-size: 24px;
+    text-align:center;
+    color:#307848;
 
+}
+
+h3{
+    font-size: 20px;
+    text-align:center;
+    color:#307848;
+
+}
+
+h4{
+    font-size: 16px;
+    text-align:center;
+    color:#307848;
+
+}
+
+/*socials for contact page*/
+p a{
+    display:block; 
+    text-decoration:double;
+    color:#307848;
+    font-weight: bold;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+p a:hover{
+    color: #95e2ac;
+
+}
+
+/*nav bar*/
 nav{
     background: #b6efb8;
     padding: 10px 0;
     text-align: center;
+    position: sticky;
 }
 
 nav ul{
@@ -58,10 +105,11 @@ section{
 
 footer{
     text-align: center;
-    background: #4f9b68;
+    background: #95e2ac;
     color: #e7e6e6;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
