@@ -11,10 +11,13 @@ body {
     
 }
 
+/*box at the top class*/
 .myDiv {
     border: 5px outset #307848;
     background-color: hwb(123 48% 28%);    
     text-align: center;
+    padding:12px 12px;
+    border-radius: 5px;
   }
 
 /*headings*/
@@ -101,6 +104,13 @@ section{
     padding:20px;
     text-align: center;
 
+}
+
+img{
+    width: 35%;
+    height: 35%;
+    border-radius: 12px;
+    margin-left: auto;
 }
 
 footer{
