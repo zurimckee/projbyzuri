@@ -1,10 +1,7 @@
-FROM nginx:alpine
+FROM nginx
+
 
 WORKDIR /html s\zurisite
 
-COPY index.html .
-COPY projects.html .
-COPY contact.html .
-COPY blog.html .
-COPY about.html .
-COPY styles.css .
+COPY static-zurisite /usr/share/nginx/html
+
