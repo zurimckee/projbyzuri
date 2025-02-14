@@ -221,9 +221,9 @@ iframe{
     transition: color 0.3s ease;
     border-radius: 5px;
     margin: 5px;
-    align-items: left;
+    text-align: left;
     gap: 8px;
-    font-size: 25px;
+    font-size: 15px;
 
 
 }
